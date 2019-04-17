@@ -1,6 +1,9 @@
 <template>
-  <div class="container">
+  <div class="">
     <the-header></the-header>
+    <div id="main-container" class="container main-container">
+      <router-view/>
+    </div>
     <the-footer></the-footer>
   </div>
 </template>
