@@ -85,7 +85,7 @@
         this.captchaTpl = tpl
         this.localCaptcha = captcha
       },
-      register () {
+      register (e) {
         /*
         * 实例的 $nextTick 方法用于在下次 DOM 更新循环结束之后执行延迟回调。在我们的代码里，当我们点击注册按钮后，
         * 表单验证指令有为按钮添加一个 canSubmit 的属性，但 DOM 没有立即更新，
